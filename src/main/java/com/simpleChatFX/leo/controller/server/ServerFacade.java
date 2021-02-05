@@ -13,7 +13,6 @@ public class ServerFacade {
     private DataInputStream in;
     private DataOutputStream out;
 
-
     public ServerFacade(Socket socket) throws IOException {
         this.socket = socket;
         in = new DataInputStream(socket.getInputStream());
