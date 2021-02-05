@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="340.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simpleChatFX.leo.view.client.ClientControllerFX">
+   <children>
+      <Button fx:id="buttonOk" layoutX="236.0" layoutY="272.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="40.0" prefWidth="52.0" text="отправить">
+         <font>
+            <Font size="8.0" />
+         </font></Button>
+      <Label layoutX="70.0" layoutY="30.0" text="Введите ваше имя:" />
+      <TextArea fx:id="inputMessage" layoutX="70.0" layoutY="272.0" prefHeight="40.0" prefWidth="163.0" />
+      <TextArea fx:id="outputMessage" editable="false" layoutX="70.0" layoutY="64.0" prefHeight="200.0" prefWidth="218.0" />
+      <TextField fx:id="nameField" layoutX="176.0" layoutY="26.0" prefHeight="25.0" prefWidth="111.0" />
+   </children>
+</AnchorPane>
